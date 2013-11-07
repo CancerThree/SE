@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">myFirstAndroid</string>
+    <string name="dummy_button">退出</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title">HIT教室查询</string>
+    <string name="find_button">教室查询</string>
+    <string name="log_in">你好，我是HIT地图</string>
+    <string name="leave_message">给我们留言</string>
+    <string name="memeda_erro0">HIT教室查询</string>
+    <string name="memda_erro1">技术不足</string>
+    <string name="memeda_erro2">时间不够</string>
+    <string name="memeda_erro3">资金暂缺</string>
+    <string name="memeda_erro4">敬请期待</string>
+    
+    <string-array name="school_place">
+        <item>一区</item>
+        <item>二区</item>
+    </string-array>
+
+</resources>

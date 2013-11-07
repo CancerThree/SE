@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="110dp"
+            android:gravity="center"
+            android:text="@string/memeda_erro0"
+            android:textColor="@color/yellow"
+            android:textSize="40sp" >
+
+        </TextView>
+
+        <!-- <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+                <TextView
+            		android:id="@+id/table_erro1"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text = "@string/memda_erro1"
+            		android:gravity = "center"
+            		android:textSize="30sp"
+           			android:textColor="@color/yellow" >
+        		</TextView>
+
+                <TextView
+                    android:id="@+id/table_erro2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/memeda_erro2"
+                    android:textColor="@color/yellow"
+                    android:textSize="30sp" />
+
+        </TableRow>-->
+    </TableLayout>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        />
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
